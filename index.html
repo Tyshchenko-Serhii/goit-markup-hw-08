@@ -36,7 +36,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open" data-menu-open>
           <svg class="mobile-menu-open__icon" width="40" height="40">
             <use href="./images/sprite.svg#burger-icon"></use>
           </svg>
@@ -60,32 +60,34 @@
           </li>
         </ul>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu__container">
-          <button class="mobile-menu__close-button">
+          <button class="mobile-menu__close-button" data-menu-close>
             <svg class="mobile-menu__close-icon" width="40" height="40">
               <use href="./images/sprite.svg#close-icon"></use>
             </svg>
           </button>
-          <ul class="nav-menu__list list">
-            <li class="nav-menu__item">
-              <a class="nav-menu__link link nav-menu__link_current" href="./index.html">Студия</a>
-            </li>
-            <li class="nav-menu__item">
-              <a class="nav-menu__link link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="nav-menu__item">
-              <a class="nav-menu__link link" href="#">Контакты</a>
-            </li>
-          </ul>
-          <ul class="contacts-list list">
-            <li class="contacts-list__item">
-              <a class="contacts-list__link link" href="mailto:info@devstudio.com">
-                info@devstudio.com</a
+          <ul class="mobile-nav list">
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link link mobile-nav__link_current" href="./index.html"
+                >Студия</a
               >
             </li>
-            <li class="contacts-list__item">
-              <a class="contacts-list__link link" href="tel:+380961111111"> +38 096 111 11 11</a>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <ul class="mobile-contacts list">
+            <li class="mobile-contacts__item">
+              <a class="mobile-contacts__phone link" href="tel:+380961111111"> +38 096 111 11 11</a>
+            </li>
+            <li class="mobile-contacts__item">
+              <a class="mobile-contacts__mail link" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
             </li>
           </ul>
           <ul class="social-links list">
@@ -644,6 +646,7 @@
         </form>
       </div>
     </div> -->
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
