@@ -15,7 +15,7 @@
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: none;
+  pointer-events: auto;
   transition: opacity var(--transition-dur-n-fuc), visibility var(--transition-dur-n-fuc);
 }
 
@@ -40,14 +40,16 @@
 }
 
 .mobile-menu__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   position: relative;
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 25px;
-}
 
-.mobile-nav {
-  margin-bottom: 302px;
+  height: 100%;
 }
 
 .mobile-nav__item:not(:last-child) {
