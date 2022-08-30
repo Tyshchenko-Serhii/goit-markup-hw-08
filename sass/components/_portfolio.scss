@@ -4,12 +4,13 @@
   justify-content: start;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .btn-list {
     justify-content: center;
+    margin-bottom: 30px;
   }
 }
 
@@ -68,10 +69,15 @@
     width: 370px;
     flex-basis: calc((100% - 60px) / 3);
   }
+  .btn-list {
+    margin-bottom: 50px;
+  }
 }
 
 .portfolio-list__link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: box-shadow var(--transition-dur-n-fuc);
 
   &:hover,
@@ -98,6 +104,7 @@
 }
 
 .portfolio-list__card {
+  flex-grow: 1;
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;

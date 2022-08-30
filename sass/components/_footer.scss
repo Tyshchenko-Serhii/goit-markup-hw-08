@@ -26,6 +26,12 @@
   flex-grow: 1;
 }
 
+@media screen and (max-width: 1199px) {
+  .footer-contacts-wrapper {
+    margin-bottom: 60px;
+  }
+}
+
 .footer__logo-word {
   color: var(--white-color);
 }
@@ -33,7 +39,6 @@
 .address {
   font-style: normal;
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 1199px) {
