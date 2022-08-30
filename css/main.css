@@ -402,7 +402,7 @@ button {
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/Mobile-img/mb-hero.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/mobile-img/mb-hero.jpg");
   background-color: #c4c4c4;
   background-position: center;
   background-repeat: no-repeat;
@@ -411,7 +411,7 @@ button {
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .hero {
-    background-image: url("../images/hero/Mobile-img/mb-hero@2x.jpg");
+    background-image: url("../images/hero/mobile-img/mb-hero@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
